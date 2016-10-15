@@ -1,0 +1,33 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+
+// Variables
+$font: 'Expletus Sans';
+$background: #7A9F35;
+$title: #D4EE9F;
+$link: #202020;
+
+// Styles
+body {
+  font-size: 62.5%;
+  background-color: $background;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font: 3rem $font;
+  text-align: center;
+  color: $title;
+}
+
+a {
+  font: 1.5rem "open sans", "Helvetica Neue", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+  color: #354F00;
+}
